@@ -4,6 +4,16 @@ edition = "2021"
 name = "zero2prod"
 version = "0.0.1"
 
+[[bin]]
+name = "zero2prod"
+path = "src/main.rs"
+
+[dev-dependencies]
+reqwest = "0.11"
+
 [dependencies]
 actix-web = "4"
 tokio = { features = ["macros", "rt-multi-thread"], version = "1" }
+
+[lib]
+path = "src/lib.rs"

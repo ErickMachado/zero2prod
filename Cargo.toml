@@ -19,6 +19,7 @@ config = "0.13"
 secrecy = { features = ["serde"], version = "0.8" }
 serde = { features = ["derive"], version = "1" }
 tracing = { features = ["log"], version = "0.1" }
+tracing-actix-web = "0.6"
 tracing-log = "0.1"
 tracing-bunyan-formatter = "0.3"
 tracing-subscriber = { features = ["registry", "env-filter"], version = "0.3" }

@@ -22,6 +22,7 @@ wiremock = "0.5"
 actix-web = "4"
 chrono = { default-features = false, features = ["clock"], version = "0.4.22" }
 config = "0.13"
+rand = { features = ["std_rng"], version = "0.8" }
 secrecy = { features = ["serde"], version = "0.8" }
 serde = { features = ["derive"], version = "1" }
 serde-aux = "3"

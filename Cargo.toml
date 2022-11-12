@@ -20,6 +20,7 @@ wiremock = "0.5"
 
 [dependencies]
 actix-web = "4"
+anyhow = "1"
 chrono = { default-features = false, features = ["clock"], version = "0.4.22" }
 config = "0.13"
 rand = { features = ["std_rng"], version = "0.8" }
@@ -31,6 +32,7 @@ tracing-actix-web = "0.6"
 tracing-log = "0.1"
 tracing-bunyan-formatter = "0.3"
 tracing-subscriber = { features = ["registry", "env-filter"], version = "0.3" }
+thiserror = "1"
 tokio = { features = ["rt", "macros"], version = "1" }
 uuid = { features = ["v4"], version = "1" }
 unicode-segmentation = "1"
